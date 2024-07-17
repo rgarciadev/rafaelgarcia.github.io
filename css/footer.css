@@ -1,0 +1,49 @@
+.footer{
+   background: #000;
+}
+
+.footer-container{
+   max-width: 1200px;
+   padding: 120px 20px 60px 20px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+}
+
+.footer-information{
+   font-size: 1.5rem;
+   line-height: 1.33;
+   color: #8f8f8f;
+}
+
+
+.footer-contact{
+   font-weight: bold;
+   font-size: 2.25rem;
+   line-height: 1.11;
+   color: #fff;
+   margin-bottom: 30px;
+}
+.footer-copy{
+   grid-column: 1 / -1;
+   font-size: 1.15rem;
+   line-height: 1.2;
+   text-align: center;
+   color: rgb(139, 135, 135);
+   margin-top: 30px;
+}
+
+@media(max-width: 800px){
+   .footer-container{
+      grid-template-columns: 1fr;
+      gap: 40px;
+   }
+   .footer-contact li{
+
+      font-size: 1.5rem;
+   }
+   .footer-copy{
+      margin-top: 0px;
+   }
+}
