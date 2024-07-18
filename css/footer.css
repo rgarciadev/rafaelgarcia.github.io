@@ -47,3 +47,24 @@
       margin-top: 0px;
    }
 }
+
+@media(max-width: 431px){
+   .footer-container{
+      grid-template-columns: 1fr;
+      gap: 20px;
+   }
+   .footer-contact li{
+
+      font-size: 1rem;
+   }
+   .footer-copy{
+      grid-column: 1 / 1;
+      margin-top: 0px;
+      font-size: 0.875rem;
+      text-align: center;
+      color: white;
+   }
+   .footer-information{
+      font-size: 1.1rem;
+   }
+}
